@@ -211,6 +211,6 @@ if selected == "Support":
 		st.markdown("<center><p style='font-weight:bold;font-size:40px'>Big news!! I'm starting a brand🥳</p></center>",unsafe_allow_html=True)
 		col1,col2,col10 = st.columns([1,2,1])
 		with col2:
-			st.image("images/monic.png")
+			st.image("images/crypto.png")
 
 
