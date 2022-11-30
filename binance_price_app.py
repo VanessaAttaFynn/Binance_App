@@ -28,7 +28,7 @@ if selected == "Quick Start":
 	head_img, head_title = st.columns([1,4])
 	head_img.markdown("####")
 	
-	head_img.image("images/monic.png")
+	head_img.image("images/crypto.png")
 	
 	head_title.markdown('''# **Binance Price App**
 		Cryptocurrency price app pulling data from Binance API''')
