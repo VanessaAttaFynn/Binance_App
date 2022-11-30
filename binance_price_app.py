@@ -28,7 +28,7 @@ if selected == "Quick Start":
 	head_img, head_title = st.columns([1,4])
 	head_img.markdown("####")
 	
-	head_img.image("images/crypto.png")
+	head_img.image("images/crypto.PNG")
 	
 	head_title.markdown('''# **Binance Price App**
 		Cryptocurrency price app pulling data from Binance API''')
@@ -50,7 +50,7 @@ if selected == "Dashboard":
 	head_img, head_title = st.columns([1,4])
 	head_img.markdown("####")
 	
-	head_img.image("images/crypto.png")
+	head_img.image("images/crypto.PNG")
 	
 	head_title.markdown('''# **Binance Price App**
 		Cryptocurrency price app pulling data from Binance API''')
@@ -156,7 +156,7 @@ if selected == "Support":
 
 	if choose == "Contact":
 		col7, col8 = st.columns([2,1])
-		col7.image("images/profile.png")
+		col7.image("images/profile.PNG")
 		with col8:
 			st.markdown('#')
 			st.markdown('#')
@@ -211,6 +211,6 @@ if selected == "Support":
 		st.markdown("<center><p style='font-weight:bold;font-size:40px'>Big news!! I'm starting a brand🥳</p></center>",unsafe_allow_html=True)
 		col1,col2,col10 = st.columns([1,2,1])
 		with col2:
-			st.image("images/crypto.png")
+			st.image("images/crypto.PNG")
 
 
